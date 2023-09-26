@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.Loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20%;
+}

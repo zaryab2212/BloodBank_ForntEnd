@@ -1,0 +1,36 @@
+.sidebar{
+    height: 100vh;
+    border-radius: 5px;
+    background-color: aquamarine;
+    box-shadow: 0 0 0 2px gray;
+    color: black;
+}
+
+.menu{
+    padding-top: 4rem;
+}
+.menu-item{
+    padding-top: 2rem;
+}
+.menu-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.menu-item i {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0 15px;
+
+}
+.active{
+   background-color: black;
+    color: beige;
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+.active a , .active i{
+    color: antiquewhite;
+    background-color: rgb(14, 13, 13)(7, 7, 7);
+}

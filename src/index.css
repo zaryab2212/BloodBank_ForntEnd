@@ -1,13 +1,21 @@
-.form-banner img{
+.form-banner img {
   width: 100%;
   height: 100%;
-
 }
-.login-form{
-  width: 80%;
-  height: 80%;
+.login-form {
+  width: 90%;
+  height: 90%;
   margin-top: 2rem;
-  align-items: center;
+}
+.login-form > div > input {
+  width: 100%;
+}
 
+/* +++++++++++++++++
+Navbar
++++++++++++++ */
 
+.navbar ,.navbar-brand, .nav-link{
+  background-color: black;
+  color: aliceblue;
 }
